@@ -1,0 +1,106 @@
+body{
+    font-size: 1.0rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    height: 100vh;
+}
+h1.title{
+    padding-bottom: 10px;
+    color: #3071a9;
+    font-size: 1.30rem;
+    font-weight: bold;
+}
+.label{
+    color: #3071a9;
+    font-weight: bold;
+    font-size: 1rem;
+}
+span.name{
+    float:left;
+    width: 60%;
+/*    font-family: "Lobster";*/
+    font-size: 1.15rem;
+    font-weight: bold;
+/*
+    padding: 0.5rem 0;
+    margin: 0;
+*/
+    overflow: hidden;
+    color: #333;
+}
+span.dob{
+    font-size: 0.8rem;
+    color: #666;
+}
+.midline{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+#picture{
+    background-color: green;
+    color: white;
+}
+#delete{
+    background-color: red;
+    color: white;
+}
+#cancel{
+    background-color: red;
+    color: white;
+}
+#save{
+    background-color: blue;
+    color: white;
+}
+.icon-star-filled::before{
+    font-size: 0.75rem;
+    color: goldenrod;
+    text-shadow: 1px 1px 10px gold;
+}
+p.name{
+    color: #3071a9;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+span.name{
+    padding-left: 1rem;
+}
+.thumb{
+    width: 75px;
+    height: 75px;
+}
+header a#add{
+    font-size: .75rem;
+}
+.icon-compose::before{
+    font-size: 1.25rem;
+}
+.bigpic{
+    width: 100%;
+}
+.star{
+  color: goldenrod;
+  font-size: 2.0rem;
+  position: relative;
+  padding: 0 1rem; /* space out the stars */
+}
+.star::before{
+  position:absolute;
+  top:0;
+  left:0;
+  content: '\2606';
+  cursor: pointer;
+}
+.star:hover::before{
+  /* the :hover should come first */
+  content: '\2605' !important;
+  color: #bada55;
+}
+.star.rated::before{
+  /* the :hover should come first */
+  content: '\2605' !important;
+}
+#stars{
+    padding-top: 2rem;
+    height: 4rem;
+}
